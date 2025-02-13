@@ -1,5 +1,5 @@
-from book import BOOK
-
+##from book import BOOK
+from l3 import l33
 def input_int(prompt):
     while True:
         try:
@@ -24,7 +24,7 @@ def main():
     current_id = 1
     inventory = []
     while True and current_id is not None:
-        current_page = get_page(BOOK, current_id)
+        current_page = get_page(l33 , current_id)
         show_page(current_page)
         if "loot" in current_page:
             print(f"You found {current_page['loot']}!")
