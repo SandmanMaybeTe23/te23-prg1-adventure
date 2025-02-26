@@ -32,3 +32,7 @@ format = [
 
 Du har förberett AI med förutsättningarna. Vill du styra ännu mer över vad den kommer att skriva så skriv så mycket om förutsättningarna som möjligt. Vad är det för kontext, vilka karaktärer finns det, vilka är de viktigaste händelserna?
 
+
+added a thing that if you type 0 you can see your choses 
+
+and the code work how it work but basically the program start at id 1 and in an outer fille has been import and it has the id 1 and it has outer id to go and you get opinion to pick 1 2 or maybe 3 and it works like a program dose.   
