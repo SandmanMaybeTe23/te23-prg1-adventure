@@ -1,4 +1,11 @@
 ##from book import BOOK
+
+choses=[]
+
+
+
+
+
 from l3 import l33
 def input_int(prompt):
     while True:
@@ -30,8 +37,14 @@ def main():
             print(f"You found {current_page['loot']}!")
             inventory.append(current_page["loot"])
         choice = input_int("Enter your choice: ")
+        
         if 1 <= choice <= len(current_page["options"]):
             current_id = current_page["options"][choice - 1]["next_id"]
+            choses.append(choice)
+        elif choice == 0:
+
+            print(choses)
+            
         else:
             print("Invalid choice. Please try again.")
             current_id = None
@@ -39,3 +52,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
